@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon" />
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <!-- CSS do Art -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Estética</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <div class="container-fluid"></div>
+    <header class="row" id="header">
+      <div id="logo-container">
+        <img src="img/logo.png" alt="Art" id="logo" />
+      </div>
+    </header>
+    <nav id="navbar" class="container">
+      <div class="justify-content-center">
+        <a href="#home">Home</a>
+        <a href="#procedimentos">Procedimentos</a>
+      <!--  <a href="#produtos">Produtos</a> -->
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+    <!-- MAIN IMAGE -->
+    <div class="container" id="main-image-container">
+      <div class="main-image center-image">
+        <!-- <img class="img-fluid" src="/img/Denise1.jpg" alt="denise" /> -->
+      </div>
+    </div>
+
+    <!-- GALERIA -->
+    <div class="container" id="procedimentos">
+      <div class="col-12">
+        <h1>Conheça nos nossos procedimentos</h1>
+      </div>
+      <div class="row gx-md-4">
+        <div class="col-12 col-md-6">
+          <div class="small-image-container center-image" id="img2">
+            <img id="img2" src="img/botoxcompleto.jpg" alt="" />
+          </div>
+          <h3>Aplicação de botox</h3>
+         <!-- <p class="secondary-color">Realizado em: 20/08/2025</p> -->
+          <a href="#detalhe1" class="btn">Detalhes</a>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="small-image-container center-image" id="img3">
+            <img id="img3" src="img/preenchimentoLabial.jpg" alt="" />
+          </div>
+          <h3>Preenchimento Labial</h3>
+          <!-- <p class="secondary-color">Realizado em: 20/08/2025</p> -->
+          <a href="#detalhe2" class="btn">Detalhes</a>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="small-image-container center-image" id="img4">
+            <img id="img4" src="img/nariz.jpg" alt="" />
+          </div>
+          <h3>Rinomodelação</h3>
+          <!-- <p class="secondary-color">Realizado em: 20/08/2025</p> -->
+          <a href="#detalhe3" class="btn">Detalhes</a>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="small-image-container center-image" id="img5">
+            <img id="img5" src="img/argebenone.jpg" alt="argebenone" />
+          </div>
+          <h3>Preenchimento de Argíbenone</h3>
+          <!-- <p class="secondary-color">Realizado em: 20/08/2025</p> -->
+          <a href="#detalhe4" class="btn">Detalhes</a>
+        </div>
+      </div>
+      <!-- BALÃO (modal) 1 -->
+      <div class="modal" id="detalhe1">
+        <div class="modal-content">
+          <h3>Tratamento para rugas</h3>
+          <p>
+            O tratamento para rugas suaviza linhas de expressão e restaura a
+            juventude da pele.
+          </p>
+          <a href="#procedimentos" class="fechar">Fechar</a>
+        </div>
+      </div>
+      <div class="modal" id="detalhe2">
+        <div class="modal-content">
+          <h3>Preenchimento Labial</h3>
+          <p>
+            Lábios irresistíveis e naturais em minutos para elevar sua
+            autoconfiança.
+          </p>
+          <a href="#procedimentos" class="fechar">Fechar</a>
+        </div>
+      </div>
+      <div class="modal" id="detalhe3">
+        <div class="modal-content">
+          <h3>Rinomodelação</h3>
+          <p>
+            A rinomodelação corrige pequenas imperfeições no nariz sem cirurgia,
+            utilizando preenchedores para melhorar o contorno e a forma do
+            nariz.
+          </p>
+          <a href="#procedimentos" class="fechar">Fechar</a>
+        </div>
+      </div>
+      <div class="modal" id="detalhe4">
+        <div class="modal-content">
+          <h3>Tratamento de Argibenone</h3>
+          <p>
+            O Argíbenone é um bioestimulador de colágeno desenvolvido pela marca
+            Mesoestetic, especialmente para a região pericular (ao redor dos
+            olhos).
+          </p>
+          <a href="#procedimentos" class="fechar">Fechar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Videos Iframe -->
+    <div class="container" id="gallery-container">
+      <div class="row gx-md-4">
+        <div class="col-12 col-md-6">
+          <video controls autoplay muted loop class="video-full">
+            <source
+              src="videos/WhatsApp Video 2025-08-30 at 20.16.42.mp4"
+              type="video/mp4"
+            />
+            Seu navegador não suporta vídeos.
+          </video>
+          <h3>Preenchimento de Argíbenone</h3>
+          <!-- <p class="secondary-color">Realizado em: 20/08/2025</p> -->
+          <a href="#detalhe5" class="btn">Detalhes</a>
+        </div>
+        <div class="col-12 col-md-6">
+          <video controls autoplay muted loop class="video-full">
+            <source src="videos/videoestetica2.MP4" type="video/mp4" />
+            Seu navegador não suporta vídeos.
+          </video>
+          <h3>Procedimentos com resultados</h3>
+          <!-- <p class="secondary-color">Realizado em: 20/08/2025</p> -->
+          <a href="#detalhe6" class="btn">Detalhes</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- balão dos videos -->
+
+    <div class="modal" id="detalhe5">
+      <div class="modal-content">
+        <h3>Aplicação do Argíbenone</h3>
+        <p>
+          O Argíbenone é um bioestimulador de colágeno desenvolvido pela marca
+          Mesoestetic, especialmente para a região pericular (ao redor dos
+          olhos).
+        </p>
+        <a href="#procedimentos" class="fechar">Fechar</a>
+      </div>
+    </div>
+    <div class="modal" id="detalhe6">
+      <div class="modal-content">
+        <h3>Procedimentos com resultados</h3>
+        <p>
+          Os procedimentos apresentado no video foi preenchimento labial, botox
+          completo, aplicação de enzima na lipo de papada.
+        </p>
+        <a href="#procedimentos" class="fechar">Fechar</a>
+      </div>
+    </div>
+
+    <!-- localização -->
+
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.90511118884368!2d-49.49594779759247!3d-16.652757733710104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935e6700708c75f3%3A0xc5a14d46182f2070!2sDRA%20.%20Denise%20Neres!5e0!3m2!1spt-BR!2sbr!4v1757093059590!5m2!1spt-BR!2sbr"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="container" id="contato">
+      <p class="secondary-color">Nos encontre nas redes cosicais:</p>
+      <div
+        class="d-flex justify-content-center gap-3"
+        id="social-icons-container"
+      >
+        <a href="https://www.facebook.com/denise_neres" target="_blank">
+          <i class="bi bi-facebook secondary-color"></i>
+        </a>
+        <a href="https://www.instagram.com/dradeniseneres" target="_blank">
+          <i class="bi bi-instagram secondary-color"></i>
+        </a>
+        <a
+          href="https://api.whatsapp.com/send?phone=5562984643425&text=Olá,%20quero%20agendar%20uma%20consulta!"
+        >
+          <i class="bi bi-whatsapp secondary-color"></i>
+        </a>
+      </div>
+
+      <p class="secondary-color">
+        copyright &copy; 2025 Dra Denise Neres. Todos direitos reservados.
+      </p>
+    </footer>
+    <button id="btn-topo">↑</button>
+    <script src="javaScript/scripts.js"></script>
+  </body>
+</html>
